@@ -10,5 +10,9 @@ router.get('/', function *indexAction(next) {
   this.body = 'hello world';
   yield next;
 });
+router.get('/index/index', function *indexAction(next) {
+  this.body = 'hello world';
+  yield next;
+});
 
 app.use(router.routes());
