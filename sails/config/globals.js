@@ -10,6 +10,8 @@
  */
 module.exports.globals = {
 
+  port: 8360
+
   /****************************************************************************
   *                                                                           *
   * Expose the lodash installed in Sails core as a global variable. If this   *
