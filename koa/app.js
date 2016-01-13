@@ -20,7 +20,7 @@ router.init();
 co(function *() {
   try {
     //yield db.init();
-    app.listen(config.port, config.ip);
+    app.listen(config.port);
     console.log('Application is run on', config.port);
   } catch (e) {
     console.error(e);
